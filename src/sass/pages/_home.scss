@@ -18,6 +18,16 @@
 .label {
     font-size: 1.6rem;
     font-weight: 500;
+    display: block;
+}
+
+.form-group{
+    position: relative;
+    &__icon{
+        width: 2rem;
+        position: absolute;
+        top: 3.5rem;
+    }
 }
 
 .input {
@@ -26,8 +36,6 @@
     outline: none;
     border-radius: 3px;
     width: 100%;
-}
+    margin-right: -4rem;
 
-.label {
-    display: block;
 }

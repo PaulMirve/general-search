@@ -30,7 +30,13 @@ export default function Landing() {
                 <div className="search-box mb-sm">
                     <div className="form-group">
                         <label htmlFor="search" className="label">Search:</label>
-                        <input id="search" onChange={(e) => onInputText(e.target.value)} placeholder="Search by any field" type="text" className="input" />
+                        <input
+                            id="search"
+                            onChange={(e) => onInputText(e.target.value)}
+                            placeholder="Search by any field"
+                            type="text"
+                            className="input" />
+                            <img src="../img/search-outline.svg" alt="Magnifing glass" className="form-group__icon"/>
                     </div>
                 </div>
                 <div className="users__grid">
