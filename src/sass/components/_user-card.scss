@@ -1,0 +1,28 @@
+.user-card{
+    background-color: white;
+    border: 6px solid #00171f;
+    text-align: center;
+    padding: 6rem 8rem;
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    
+    &__photo{
+        border-radius: 50%;
+        margin-bottom: 2rem;
+        border: 6px solid #00171f;
+        background-color: #00171f;
+    }
+
+    &__name{
+        font-size: 2rem;
+    }
+
+    &__birthday{
+        font-size: 1.6rem;
+    }
+
+    &__department{
+        font-size: 1.6rem;
+    }
+}

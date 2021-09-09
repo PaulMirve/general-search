@@ -18,15 +18,117 @@
 html {
   font-size: 62.5%;
 }
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (min-width: 112.5em) {
+  html {
+    font-size: 76%;
+  }
+}
 
 body {
   box-sizing: border-box;
+  background-color: #F5F5F5;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.6;
+}
+
+.mb-lg {
+  margin-bottom: 10rem;
+}
+
+.mb-md {
+  margin-bottom: 5rem;
+}
+
+.mb-sm {
+  margin-bottom: 2rem;
+}
+
+.mt-lg {
+  margin-top: 10rem;
+}
+
+.mt-md {
+  margin-top: 5rem;
+}
+
+.mt-sm {
+  margin-top: 2rem;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.user-card {
+  background-color: white;
+  border: 6px solid #00171f;
+  text-align: center;
+  padding: 6rem 8rem;
+  border-radius: 3px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.user-card__photo {
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  border: 6px solid #00171f;
+  background-color: #00171f;
+}
+.user-card__name {
+  font-size: 2rem;
+}
+.user-card__birthday {
+  font-size: 1.6rem;
+}
+.user-card__department {
+  font-size: 1.6rem;
+}
+
+.container {
+  border-radius: 3px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.users__grid {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.landing {
+  padding: 8rem 5vw;
+}
+
+.label {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.input {
+  padding: 1rem;
+  font-size: 1.6rem;
+  outline: none;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.label {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

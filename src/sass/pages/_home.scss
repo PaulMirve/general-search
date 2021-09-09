@@ -1,0 +1,33 @@
+.container {
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.users__grid {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+
+.landing{
+    padding: 8rem 5vw;
+}
+
+.label {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.input {
+    padding: 1rem;
+    font-size: 1.6rem;
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.label {
+    display: block;
+}
